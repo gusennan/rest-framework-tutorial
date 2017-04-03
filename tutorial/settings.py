@@ -35,7 +35,9 @@ SECRET_KEY = 'us%!@&39o250e79)l!4*0ac4oquo+^nm83vp#y%mw9i$7)i&fy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = get_environment_variable('DJANGO_DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+        e65g.harokuapp.com
+]
 
 
 # Application definition
