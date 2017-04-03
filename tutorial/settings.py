@@ -36,7 +36,7 @@ SECRET_KEY = 'us%!@&39o250e79)l!4*0ac4oquo+^nm83vp#y%mw9i$7)i&fy'
 DEBUG = get_environment_variable('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = [
-        e65g.harokuapp.com
+        'e65g.herokuapp.com'
 ]
 
 
